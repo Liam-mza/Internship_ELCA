@@ -1,0 +1,2 @@
+Water,Ville,Water consumption for the ctiy of Lausanne from the 1st of January. In metric tonnes with an update each 5 min.
+Elec,Romande Energie,Electricity consumption for the EPFL Campus of Lausanne from the 1st of January. In kWh with an update each 1h.

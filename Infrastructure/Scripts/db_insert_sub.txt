@@ -1,0 +1,6 @@
+Ville,Water,admin
+service-account-ville-gateway-1,Water,producer
+Romande Energie,Elec,admin
+service-account-swiss-post-gateway-1,Elec,producer
+service-account-ville-gateway-1,Elec,consumer
+alice,Elec,consumer

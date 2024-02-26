@@ -1,0 +1,28 @@
+{
+    "topics": {
+        "Water_admin": [
+            "Ville"
+        ],
+        "Water_consumer": [],
+        "Water_producer": [
+            "service-account-ville-gateway-1"
+        ],
+        "Train_admin": [
+            "alice"
+        ],
+        "Train_consumer": [],
+        "Train_producer": [
+            "service-account-cff-gateway"
+        ],
+        "Elec_admin": [
+            "Romande Energie"
+        ],
+        "Elec_consumer": [
+            "service-account-ville-gateway-1",
+            "alice"
+        ],
+        "Elec_producer": [
+            "service-account-swiss-post-gateway-1"
+        ]
+    }
+}

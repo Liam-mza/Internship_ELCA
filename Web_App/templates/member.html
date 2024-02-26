@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>My Form</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head> 
+<body> 
+    <h1>
+        <a href="/"><img src="{{url_for('static', filename='logo.png')}}" alt="Your Logo" width="100" height="100"  /></a>
+        List Members of a topic
+    </h1> 
+    <form method="post" action="/member" enctype="multipart/form-data"> 
+        {{ form.csrf_token }} 
+        <p>{{ form.topic_id.label }} {{ form.topic_id() }}</p> 
+        <p><input type="submit" value="Submit"></p> 
+    </form> 
+</body> 
+</html>

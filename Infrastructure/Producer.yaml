@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kafka-client-shell
+spec:
+  containers:
+  - name: kafka-client-shell
+    image: quay.io/strimzi/kafka:0.38.0-kafka-3.6.0
+    command: ["/bin/bash"]
+    args: [ "-c", 'for((i=0;;i+=1)); do echo "Up time: \$i min" && sleep 60; done' ]
+    env:
+    - name: CLASSPATH
+      value: /opt/kafka/libs/kafka-oauth-client-*:/opt/kafka/libs/kafka-oauth-common-*
+    - name: OAUTH_TOKEN_ENDPOINT_URI
+      value: http://keycloak:8080/auth/realms/demo/protocol/openid-connect/token

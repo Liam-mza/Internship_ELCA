@@ -1,0 +1,19 @@
+{
+    "topics": {
+        "Water_admin": [
+            "Ville"
+        ],
+        "Water_write": [],
+        "Water_reader": [
+            "Post",
+            "Police"
+        ],
+        "Elec_admin": [
+            "Ville"
+        ],
+        "Elec_write": [
+            "Post"
+        ],
+        "Elec_reader": []
+    }
+}

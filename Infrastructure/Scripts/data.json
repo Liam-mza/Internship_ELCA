@@ -1,0 +1,22 @@
+{
+    "topics": {
+        "Water_admin": [
+            "Ville"
+        ],
+        "Water_consumer": [
+            "service-account-swiss-post-gateway-1"
+        ],
+        "Water_producer": [
+            "service-account-ville-gateway-1"
+        ],
+        "Elec_admin": [
+            "Romande Energie"
+        ],
+        "Elec_consumer": [
+            "service-account-ville-gateway-1"
+        ],
+        "Elec_producer": [
+            "service-account-swiss-post-gateway-1"
+        ]
+    }
+}
